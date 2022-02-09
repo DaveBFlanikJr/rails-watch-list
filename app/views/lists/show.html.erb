@@ -1,0 +1,5 @@
+<%= simple_form_for [@list, @bookmark] do |f| %>
+        <%= f.input :title, placeholder: 'Kobra Kai' %>
+        <%= f.input :image_url %>
+        <%= f.submit 'Add', class:"btn btn-primary" %>
+      <% end %>
